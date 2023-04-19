@@ -1,0 +1,36 @@
+.footer{
+    margin-top: 50px;
+    background-color: #333;
+}
+h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.links ul{
+    padding: 15px;
+    list-style: none;
+    display: flex;
+}
+ul li a{
+color: white;
+padding: 10px;
+}
+.fa-youtube{
+    color: #FF0000;
+    background-color: white;
+}
+.fa-twitter-square{
+    color: #1a98e8;
+    background-color: white;
+
+}
+.fa-facebook-square{
+    color: #4267B2;
+    background-color: white;
+    border-radius: 5px;
+}
+.copy{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
