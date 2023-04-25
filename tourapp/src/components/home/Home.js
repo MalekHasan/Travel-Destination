@@ -1,14 +1,15 @@
-import Header from "../header/Header";
 import Tours from "../tours/Tours";
-import Footer from "../footer/Footer";
 import "./Home.css";
-const data=require("../../data/db.json");
+let data=require("../../data/db.json");
 function Home() {
   return (
     <>
-      <Header />
-      <Tours dataArray={data}/>
-      <Footer />
+      <div className="container"> 
+        <div className="tours">
+            {data.map((item,i) => <Tours tourId={item.id} tour={item} index={i} />)}
+          </div>
+      </div>
+      {/* <Tours dataArray={data}/> */}
     </>
   );
 }

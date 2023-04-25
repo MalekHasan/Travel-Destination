@@ -1,4 +1,4 @@
-/* .header{
+.navbar{
     padding: 15px;
     box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.15);
     position: sticky;
@@ -6,14 +6,27 @@
     right: 0;left: 0;
     background-color: rgba(255, 255, 255, 0.9);
 }
-.header .container{
+.navbar .container{
     display: flex;
+    justify-content: space-between;
 }
-.header .container i{
+.navbar .container i{
     color: #b2b21c;
     transform: rotate(-30deg);
 }
 h1{
     font-size: 30px;
     color: rgb(2, 2, 119);
-} */
+}
+.logo{
+    text-decoration: none;
+    display: flex;
+    color: rgb(2, 2, 119);
+}
+.links{
+    list-style: none;
+}
+.links .nav-link{
+color: black;
+font-weight: 600;
+}
